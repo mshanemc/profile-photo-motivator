@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentAsset>
+    <masterLabel>hans</masterLabel>
+    <relationships>
+        <organization>
+            <access>VIEWER</access>
+        </organization>
+    </relationships>
+    <language>en_US</language>
+    <versions>
+        <version>
+            <number>1</number>
+            <pathOnClient>badProfilePhotos/img/hans.jpg</pathOnClient>
+        </version>
+    </versions>
+</ContentAsset>
