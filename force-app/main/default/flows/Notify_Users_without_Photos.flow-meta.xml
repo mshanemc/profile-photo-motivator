@@ -75,7 +75,7 @@
     </processMetadataValues>
     <processType>AutoLaunchedFlow</processType>
     <startElementReference>Get_Users_without_Photos</startElementReference>
-    <status>Draft</status>
+    <status>Active</status>
     <subflows>
         <name>Get_Users_without_Photos</name>
         <label>Get Users without Photos</label>

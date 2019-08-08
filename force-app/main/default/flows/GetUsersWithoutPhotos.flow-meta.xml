@@ -33,7 +33,7 @@
         <queriedFields>Id</queriedFields>
     </recordLookups>
     <startElementReference>Get_Users_without_Photos</startElementReference>
-    <status>Draft</status>
+    <status>Active</status>
     <variables>
         <name>UsersFound</name>
         <dataType>SObject</dataType>
