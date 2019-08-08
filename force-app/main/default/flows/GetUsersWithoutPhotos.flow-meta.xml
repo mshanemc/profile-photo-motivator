@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <interviewLabel>GetUsersWithoutPhotos {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>GetUsersWithoutPhotos</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordLookups>
+        <name>Get_Users_without_Photos</name>
+        <label>Get Users without Photos</label>
+        <locationX>265</locationX>
+        <locationY>50</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <filters>
+            <field>FullPhotoUrl</field>
+            <operator>Contains</operator>
+            <value>
+                <stringValue>/profilephoto/005/F</stringValue>
+            </value>
+        </filters>
+        <object>User</object>
+        <outputReference>UsersFound</outputReference>
+        <queriedFields>Id</queriedFields>
+    </recordLookups>
+    <startElementReference>Get_Users_without_Photos</startElementReference>
+    <status>Draft</status>
+    <variables>
+        <name>UsersFound</name>
+        <dataType>SObject</dataType>
+        <isCollection>true</isCollection>
+        <isInput>false</isInput>
+        <isOutput>true</isOutput>
+        <objectType>User</objectType>
+    </variables>
+</Flow>
