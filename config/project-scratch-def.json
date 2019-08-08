@@ -1,0 +1,12 @@
+{
+  "orgName": "profile-photo-motivator",
+  "edition": "Developer",
+  "settings": {
+    "orgPreferenceSettings": {
+      "networksEnabled": false,
+      "s1DesktopEnabled": true,
+      "pathAssistantsEnabled": true,
+      "s1EncryptedStoragePref2": false
+    }
+  }
+}
