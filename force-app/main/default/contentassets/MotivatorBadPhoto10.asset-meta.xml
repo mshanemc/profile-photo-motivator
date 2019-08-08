@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ContentAsset>
-    <masterLabel>jarjar</masterLabel>
+    <masterLabel>MotivatorBadPhoto10</masterLabel>
     <relationships>
         <organization>
             <access>VIEWER</access>
@@ -10,7 +10,7 @@
     <versions>
         <version>
             <number>1</number>
-            <pathOnClient>badProfilePhotos/img/jar-jar.jpg</pathOnClient>
+            <pathOnClient>badProfilePhotos/img/Scrappy-Doo.png</pathOnClient>
         </version>
     </versions>
 </ContentAsset>

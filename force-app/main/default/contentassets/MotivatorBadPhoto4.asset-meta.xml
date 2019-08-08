@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ContentAsset>
-    <masterLabel>edward</masterLabel>
+    <masterLabel>MotivatorBadPhoto4</masterLabel>
     <relationships>
         <organization>
             <access>VIEWER</access>
@@ -10,7 +10,7 @@
     <versions>
         <version>
             <number>1</number>
-            <pathOnClient>badProfilePhotos/img/Edward_Cullen.jpg</pathOnClient>
+            <pathOnClient>badProfilePhotos/img/doloresUmbridge.jpg</pathOnClient>
         </version>
     </versions>
 </ContentAsset>
