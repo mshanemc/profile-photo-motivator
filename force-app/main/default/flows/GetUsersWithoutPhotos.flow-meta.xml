@@ -22,10 +22,17 @@
         <locationY>50</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <filters>
-            <field>FullPhotoUrl</field>
-            <operator>Contains</operator>
+            <field>IsProfilePhotoActive</field>
+            <operator>EqualTo</operator>
             <value>
-                <stringValue>/profilephoto/005/F</stringValue>
+                <booleanValue>false</booleanValue>
+            </value>
+        </filters>
+        <filters>
+            <field>UserType</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Standard</stringValue>
             </value>
         </filters>
         <object>User</object>
