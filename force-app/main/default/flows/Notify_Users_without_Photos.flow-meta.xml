@@ -26,7 +26,7 @@
     <assignments>
         <name>Increment_Post_Counter</name>
         <label>Increment Post Counter</label>
-        <locationX>864</locationX>
+        <locationX>953</locationX>
         <locationY>295</locationY>
         <assignmentItems>
             <assignToReference>PostCount</assignToReference>
@@ -37,6 +37,22 @@
         </assignmentItems>
         <connector>
             <targetReference>Wait_for_new_limits</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Zero_Counter</name>
+        <label>Reset Counter</label>
+        <locationX>757</locationX>
+        <locationY>171</locationY>
+        <assignmentItems>
+            <assignToReference>PostCount</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <numberValue>0.0</numberValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Loop_through_users</targetReference>
         </connector>
     </assignments>
     <constants>
@@ -120,8 +136,8 @@
     <waits>
         <name>Wait_for_new_limits</name>
         <label>Wait for new limits</label>
-        <locationX>864</locationX>
-        <locationY>51</locationY>
+        <locationX>951</locationX>
+        <locationY>49</locationY>
         <defaultConnector>
             <targetReference>Loop_through_users</targetReference>
         </defaultConnector>
@@ -137,7 +153,7 @@
                 </rightValue>
             </conditions>
             <connector>
-                <targetReference>Loop_through_users</targetReference>
+                <targetReference>Zero_Counter</targetReference>
             </connector>
             <eventType>AlarmEvent</eventType>
             <inputParameters>
